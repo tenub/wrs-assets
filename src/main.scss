@@ -7,8 +7,7 @@
 	line-height: 1.5rem;
 }
 
-html,
-body {
+html {
 	font-family: 'Inconsolata';
 	font-size: 62.5%;
 }
@@ -33,7 +32,11 @@ h2 {
 article,
 aside,
 nav,
-section {
+section,
+a,
+p,
+ol,
+ul {
 	font-size: 1.2rem;
 }
 
