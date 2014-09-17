@@ -24,6 +24,7 @@ h4,
 h5,
 h6 {
 	margin: 1rem 0;
+	font-weight: normal;
 }
 
 h1 {
@@ -37,6 +38,13 @@ h2 {
 	font-size: 1.5rem;
 	b {
 		color: #c66;
+	}
+}
+
+h3 {
+	font-size: 1.2rem;
+	b {
+		color: #f0c674;
 	}
 }
 
@@ -64,6 +72,11 @@ article {
 	:last-child {
 		margin-bottom: 0;
 	}
+}
+
+code {
+	background: #4271ae;
+	color: #fff;
 }
 
 ul {
