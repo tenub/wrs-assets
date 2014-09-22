@@ -8,13 +8,13 @@
 }
 
 html {
-	font-family: 'Inconsolata';
 	font-size: 62.5%;
 }
 
 body {
 	background: #1d1f21;
 	color: #c5c8c6;
+	font-family: 'Inconsolata', monospace;
 }
 
 h1,
@@ -30,14 +30,14 @@ h6 {
 h1 {
 	font-size: 1.8rem;
 	b {
-		color: #81a2be;
+		color: #b294bb;
 	}
 }
 
 h2 {
 	font-size: 1.5rem;
 	b {
-		color: #c66;
+		color: #81a2be;
 	}
 }
 
@@ -61,6 +61,9 @@ ul {
 
 section {
 	margin: 0 1rem;
+	h1 {
+		font-size: 2.4rem;
+	}
 }
 
 article {
@@ -72,11 +75,32 @@ article {
 	:last-child {
 		margin-bottom: 0;
 	}
+	&:first-of-type {
+		h1 {
+			text-decoration: underline;
+		}
+	}
+	h1 {
+		font-size: 1.8rem;
+	}
 }
 
 code {
-	background: #4271ae;
+	padding: .2em .3em;
+	border-radius: .3em;
+	background: #373b41;
 	color: #fff;
+	font-family: 'Inconsolata', monospace;
+	b {
+		color: red;
+	}
+}
+
+var {
+	color: #c66;
+	font-family: 'Inconsolata', monospace;
+	font-style: normal;
+	font-weight: bold;
 }
 
 ul {
